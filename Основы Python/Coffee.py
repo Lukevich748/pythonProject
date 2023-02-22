@@ -1,6 +1,5 @@
 print('Добрый день')
-cup = input('Сколько чашек кофе вы желаете?')
-cup = int(cup)
+cup = int(input('Сколько чашек кофе вы желаете?\n'))
 bonus_cup = cup // 6
 
 if cup // 6:
