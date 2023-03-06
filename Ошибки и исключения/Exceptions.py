@@ -4,7 +4,7 @@ import math
 class InvalidTriangleError(Exception):
     """Raised when a triangle has invalid sides"""
 
-#Функция вычисления площади треугольника
+    # Функция вычисления площади треугольника
 def calc_square(ab, ac, bc):
     if ab <= 0 or ac <= 0 or bc <= 0:
         raise InvalidTriangleError('Число должно быть больше 0')
